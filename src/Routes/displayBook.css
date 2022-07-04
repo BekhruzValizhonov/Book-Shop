@@ -1,0 +1,123 @@
+.card{
+  margin-bottom: 1rem;
+  width: 18.9rem;
+}
+
+
+
+.card-parrent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem ;
+  }
+  
+  .flex-card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .piece-book{
+  display: flex;
+  align-items: center;
+  }
+  
+  .span-piece{
+    border: 1px solid #777;
+    padding: .5rem;
+    border-radius: 5px;
+  }
+  
+  .text-cart-navbar{
+    height: 50px;
+    width: 100%;
+    padding: 2.2rem;
+    z-index: 1;
+    background-color: #2071ec;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+  }
+  
+  .category-navbar{
+    width: 30%;
+  }
+
+#cart-text{
+  color: #fff;
+  text-decoration: none;
+}
+  
+  
+  .stick{
+    font-size: 28px;
+    font-weight: 650;
+    margin: 0px 15px;
+    color: #fff;
+  }
+  
+  .som{
+    color: #fff;
+  }
+  
+  .decrement{
+    padding: 7.25px 12.55px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+  
+  .add-button{
+    background-color: #0d6efd;
+    border: none;
+    padding: 8px;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .icon-clear{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    background-color: #DC3545;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 1rem;
+  }
+  
+  .incremetn-cart{
+    border: none;
+    padding: 5px 10px;
+    background-color: #198754;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 1rem;
+  }
+  
+  
+  .decrement-cart{
+    border: none;
+    padding: 5px 10px;
+    background-color: #DC3545;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .span-piece-cart{
+    border: 1px solid #777;
+    padding: 5px .5rem;
+    border-radius: 5px;
+  }
+  
+  span.card-text{
+    font-size: 18px;
+    font-weight: 550;
+  }

@@ -1,0 +1,36 @@
+.perrent-info{
+    margin-top: 5rem;
+    display: flex;
+}
+
+.info-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 4px;
+}
+
+p.description{
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.information h3{
+    line-height: 35px;
+}
+
+.information{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.information p.info-para{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+img{
+    border-radius: 5px;
+}
